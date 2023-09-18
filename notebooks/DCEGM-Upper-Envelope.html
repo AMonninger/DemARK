@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=927b94d3fcb96560df09" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,8 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=927b94d3fcb96560df09"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -79,6 +80,15 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -397,10 +407,10 @@ const thebe_selector_output = ".output, .cell_output"
 
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -408,7 +418,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -649,12 +659,12 @@ Consider the following example output.</p>
 <section id="the-agent-without-a-will">
 <h2>The agent without a will<a class="headerlink" href="#the-agent-without-a-will" title="Permalink to this heading">#</a></h2>
 <p>An agent who does not have a will simply consumes all of his available resources. Therefore, his value and consumption functions will be:</p>
-<div class="amsmath math notranslate nohighlight" id="equation-aa513438-28bf-4377-a34b-4060ecbdb4e3">
-<span class="eqno">(1)<a class="headerlink" href="#equation-aa513438-28bf-4377-a34b-4060ecbdb4e3" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-27791259-8d5c-4ad6-8358-9d8f2b302068">
+<span class="eqno">(1)<a class="headerlink" href="#equation-27791259-8d5c-4ad6-8358-9d8f2b302068" title="Permalink to this equation">#</a></span>\[\begin{equation}
 V_3(m_3,W=0) = u(m_3)
 \end{equation}\]</div>
-<div class="amsmath math notranslate nohighlight" id="equation-61f99aaf-a05c-40e0-8545-209404dd81a2">
-<span class="eqno">(2)<a class="headerlink" href="#equation-61f99aaf-a05c-40e0-8545-209404dd81a2" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-349985aa-bfee-486a-919e-a6c0876b2007">
+<span class="eqno">(2)<a class="headerlink" href="#equation-349985aa-bfee-486a-919e-a6c0876b2007" title="Permalink to this equation">#</a></span>\[\begin{equation}
 c_3(m_3, W=0) = m_3
 \end{equation}\]</div>
 <p>Where <span class="math notranslate nohighlight">\(u(\cdot)\)</span> gives the utility from consumption. We assume a CRRA specification <span class="math notranslate nohighlight">\(u(c) = \frac{c^{1-\rho}}{1-\rho}\)</span>.</p>
@@ -662,13 +672,13 @@ c_3(m_3, W=0) = m_3
 <section id="the-agent-with-a-will">
 <h2>The agent with a will<a class="headerlink" href="#the-agent-with-a-will" title="Permalink to this heading">#</a></h2>
 <p>An agent who wrote a will decides how to allocate his available resources <span class="math notranslate nohighlight">\(m_3\)</span> between his consumption and a bequest. We assume an additive specification for the utility of a given consumption-bequest combination that follows a particular case in <a class="reference external" href="http://www.econ2.jhu.edu/people/ccarroll/Why.pdf">Carroll (2000)</a>. The component of utility from leaving a bequest <span class="math notranslate nohighlight">\(x\)</span> is assumed to be <span class="math notranslate nohighlight">\(\ln (x+1)\)</span>. Therefore, the agent’s value function is</p>
-<div class="amsmath math notranslate nohighlight" id="equation-d7f29152-ae43-4692-a90b-8e999d6eff45">
-<span class="eqno">(3)<a class="headerlink" href="#equation-d7f29152-ae43-4692-a90b-8e999d6eff45" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-9b50f6b9-56d6-44f6-9822-c84932e1283c">
+<span class="eqno">(3)<a class="headerlink" href="#equation-9b50f6b9-56d6-44f6-9822-c84932e1283c" title="Permalink to this equation">#</a></span>\[\begin{equation}
 V_3(m_3, W=1) = \max_{0\leq c_3 \leq m_3} u(c_3) + \ln(m_3 - c_3 + 1)
 \end{equation}\]</div>
 <p>For ease of exposition we consider the case <span class="math notranslate nohighlight">\(\rho = 2\)</span>, where <a class="reference external" href="http://www.econ2.jhu.edu/people/ccarroll/Why.pdf">Carroll (2000)</a> shows that the optimal consumption level is given by</p>
-<div class="amsmath math notranslate nohighlight" id="equation-17dd78f1-0988-43f1-be4f-7004cb7a6916">
-<span class="eqno">(4)<a class="headerlink" href="#equation-17dd78f1-0988-43f1-be4f-7004cb7a6916" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-fbad7543-9195-4ac5-969b-dbb83eccf274">
+<span class="eqno">(4)<a class="headerlink" href="#equation-fbad7543-9195-4ac5-969b-dbb83eccf274" title="Permalink to this equation">#</a></span>\[\begin{equation}
 c_3(m_3, W=1) = \min \left[m_3, \frac{-1 + \sqrt{1 + 4(m_3+1)}}{2} \right].
 \end{equation}\]</div>
 <p>The consumption function shows that <span class="math notranslate nohighlight">\(m_3=1\)</span> is the level of resources at which an important change of behavior occurs: agents leave bequests only for <span class="math notranslate nohighlight">\(m_3 &gt; 1\)</span>. Since an important change of behavior happens at this point, we call it a ‘kink-point’ and add it to our grids.</p>
@@ -761,8 +771,8 @@ c_3(m_3, W=1) = \min \left[m_3, \frac{-1 + \sqrt{1 + 4(m_3+1)}}{2} \right].
 <section id="an-agent-who-decides-not-to-write-a-will">
 <h2>An agent who decides not to write a will<a class="headerlink" href="#an-agent-who-decides-not-to-write-a-will" title="Permalink to this heading">#</a></h2>
 <p>After deciding not to write a will, an agent solves the optimization problem expressed in the following conditional value function</p>
-<div class="amsmath math notranslate nohighlight" id="equation-cf0aff27-22d5-4a0a-9797-7b868edc2483">
-<span class="eqno">(5)<a class="headerlink" href="#equation-cf0aff27-22d5-4a0a-9797-7b868edc2483" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-c93d811c-5a77-4054-b957-dd3130517e72">
+<span class="eqno">(5)<a class="headerlink" href="#equation-c93d811c-5a77-4054-b957-dd3130517e72" title="Permalink to this equation">#</a></span>\[\begin{equation}
 \begin{split}
 \nu (m_2|w=0) &amp;= \max_{0\leq c \leq m_2} u(c) + \beta V_3(m_3,W=0)\\
 s.t.&amp;\\
@@ -806,8 +816,8 @@ m_3 &amp;= m_2 - c + w
 <section id="an-agent-who-decides-to-write-a-will">
 <h2>An agent who decides to write a will<a class="headerlink" href="#an-agent-who-decides-to-write-a-will" title="Permalink to this heading">#</a></h2>
 <p>An agent who decides to write a will also solves for his consumption dinamically. We assume that the lawyer that helps the agent write his will takes some fraction <span class="math notranslate nohighlight">\(\tau\)</span> of his total resources in period 3. Therefore, the evolution of resources is given by <span class="math notranslate nohighlight">\(m_3 = (1-\tau)(m_2 - c_2 + w)\)</span>. The conditional value function of the agent is therefore:</p>
-<div class="amsmath math notranslate nohighlight" id="equation-e244d852-2eea-4da5-82ed-258c332ec43d">
-<span class="eqno">(6)<a class="headerlink" href="#equation-e244d852-2eea-4da5-82ed-258c332ec43d" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-b1198de0-f0ef-4b3e-97e4-33456afed77e">
+<span class="eqno">(6)<a class="headerlink" href="#equation-b1198de0-f0ef-4b3e-97e4-33456afed77e" title="Permalink to this equation">#</a></span>\[\begin{equation}
 \begin{split}
 \nu (m_2|w=1) &amp;= \max_{0\leq c \leq m_2} u(c) + \beta V_3(m_3,W=1)\\
 s.t.&amp;\\
@@ -850,16 +860,16 @@ m_3 &amp;= (1-\tau)(m_2 - c + w)
 <section id="the-decision-whether-to-write-a-will-or-not">
 <h2>The decision whether to write a will or not<a class="headerlink" href="#the-decision-whether-to-write-a-will-or-not" title="Permalink to this heading">#</a></h2>
 <p>With the conditional value functions at hand, we can now express and solve the decision of whether to write a will or not, and obtain the unconditional value and consumption functions.</p>
-<div class="amsmath math notranslate nohighlight" id="equation-f62e8dac-be1f-4f84-90e8-00ee822ab38f">
-<span class="eqno">(7)<a class="headerlink" href="#equation-f62e8dac-be1f-4f84-90e8-00ee822ab38f" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-14196b85-110b-4d78-8a82-fbb935b90593">
+<span class="eqno">(7)<a class="headerlink" href="#equation-14196b85-110b-4d78-8a82-fbb935b90593" title="Permalink to this equation">#</a></span>\[\begin{equation}
 V_2(m_2) = \max \{ \nu (m_2|w=0), \nu (m_2|w=1) \}
 \end{equation}\]</div>
-<div class="amsmath math notranslate nohighlight" id="equation-08f1c24b-3639-44d4-8b4b-1d10d1edc8d7">
-<span class="eqno">(8)<a class="headerlink" href="#equation-08f1c24b-3639-44d4-8b4b-1d10d1edc8d7" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-8119d878-cc4c-498e-9dea-4254f0379b51">
+<span class="eqno">(8)<a class="headerlink" href="#equation-8119d878-cc4c-498e-9dea-4254f0379b51" title="Permalink to this equation">#</a></span>\[\begin{equation}
 w^*(m_2) = \arg \max_{w \in \{0,1\}} \{ \nu (m_2|w=w) \}
 \end{equation}\]</div>
-<div class="amsmath math notranslate nohighlight" id="equation-8a5b3901-ba19-49b9-acd4-000e21ef5a6d">
-<span class="eqno">(9)<a class="headerlink" href="#equation-8a5b3901-ba19-49b9-acd4-000e21ef5a6d" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-16aa682f-be69-4fbf-8c4d-54e20abd3e17">
+<span class="eqno">(9)<a class="headerlink" href="#equation-16aa682f-be69-4fbf-8c4d-54e20abd3e17" title="Permalink to this equation">#</a></span>\[\begin{equation}
 c_2(m_2) = c_2(m_2|w=w^*(m_2))
 \end{equation}\]</div>
 <p>We now construct these objects.</p>
@@ -936,8 +946,8 @@ c_2(m_2) = c_2(m_2|w=w^*(m_2))
 <section class="tex2jax_ignore mathjax_ignore" id="the-first-period">
 <h1>The first period<a class="headerlink" href="#the-first-period" title="Permalink to this heading">#</a></h1>
 <p>In the first period, the agent simply observes his market resources and decides what fraction of them to consume. His problem is represented by the following value function</p>
-<div class="amsmath math notranslate nohighlight" id="equation-1a0ac774-cdb6-43aa-8d23-8aff1638a639">
-<span class="eqno">(10)<a class="headerlink" href="#equation-1a0ac774-cdb6-43aa-8d23-8aff1638a639" title="Permalink to this equation">#</a></span>\[\begin{equation}
+<div class="amsmath math notranslate nohighlight" id="equation-9bd06912-ea97-416d-b894-eab9269d8cd0">
+<span class="eqno">(10)<a class="headerlink" href="#equation-9bd06912-ea97-416d-b894-eab9269d8cd0" title="Permalink to this equation">#</a></span>\[\begin{equation}
 \begin{split}
 V (m_1) &amp;= \max_{0\leq c \leq m_1} u(c) + \beta V_2(m_2)\\
 s.t.&amp;\\
@@ -1080,11 +1090,10 @@ m_2 &amp;= m_1 - c + w.
 
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="Chinese-Growth.html"
@@ -1104,10 +1113,7 @@ m_2 &amp;= m_1 - c + w.
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -1192,8 +1198,8 @@ By The Econ-ARK Team
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=927b94d3fcb96560df09"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=927b94d3fcb96560df09"></script>
 
   <footer class="bd-footer">
   </footer>
